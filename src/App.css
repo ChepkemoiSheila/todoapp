@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+   
+}
+.title{
+    text-align: center;
+}
+.wrapper {
+    box-shadow: 10px 10px 5px 0px rgba(202,180,180,0.53);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(202,180,180,0.53);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(202,180,180,0.53);
+    background-color:#e7e4e4;
+    min-width: 700px;
+    min-height: 800px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.todoform{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    max-height: 50px;;
+   
+}
+.inputtodo{
+    width: 350px;
+    padding: 12px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    margin-left: 45px;
+}
+input:focus{
+    outline: none;
+}
+.todobtn{
+    width: 80px;
+    border-radius: 10px;
+    background-color: limegreen;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 10px;
+    border: none;
+
+}
+input:focus{
+    outline: none;
+}
+.todoitem{
+    display: flex;
+    margin: 20px 0;
+    background-color: white;
+    width: 450px;
+    padding: 10px;
+    max-height: 30px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 10px;
+
+}
+.items-todo{
+    list-style-type: none;
+    width: 350px;
+   
+     
+}
+.selectoptions{
+    margin-left: 20px;
+    
+    
+}
+#selectopt{
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    height: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+i{
+  margin-right: auto;
+    outline: none;
+display: flex;
+}
+.complete,.editbtn,.delete{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-right: 5px;
+
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+    
+   
+}
+.clearall {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    padding: 12px;
+    width: 300px;
+    justify-content: center;
+    font-size: 15px;
+    background-color: limegreen;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

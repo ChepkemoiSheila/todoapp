@@ -1,0 +1,44 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+.title{
+    text-align: center;
+}
+.wrapper {
+    background-color: lightpink;
+    min-width: 500px;
+    min-height: 600px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.todoform{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.inputtodo{
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+.todobtn{
+    width: 80px;
+    border-radius: 10px;
+    background-color: limegreen;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 10px;
+
+}
+input:focus{
+    outline: none;
+} */
